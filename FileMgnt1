@@ -1,0 +1,8 @@
+#!/bin/bash
+ mkdir /var/www/html/google
+mkdir /var/www/html/yahoo
+mkdir /var/www/html/tesla
+echo "<h1>Welcome to tesla<h1>" > /var/www/html/tesla/index.html
+echo "<h1>Welcome to google<h1>" > /var/www/html/google/index.html
+echo "<h1>Welcome to yahoo<h1>" > /var/www/html/yahoo/index.html
+
