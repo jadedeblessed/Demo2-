@@ -1,0 +1,112 @@
+Script started on 2023-02-10 01:51:33+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="54"]
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ [7mping[27mping
+[?2004lping: usage error: Destination address required
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ ping facebook@[K""facebook"[C[C[C[C[C[C[C[C."c"o"m"[C[K[1Pfacebook.com
+[?2004lPING facebook.com (157.240.229.35) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=1 ttl=34 time=10.9 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=2 ttl=34 time=10.8 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=3 ttl=34 time=11.0 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=4 ttl=34 time=10.9 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=5 ttl=34 time=10.9 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=6 ttl=34 time=10.9 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=7 ttl=34 time=10.9 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=8 ttl=34 time=10.8 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=9 ttl=34 time=17.0 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=10 ttl=34 time=10.9 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=11 ttl=34 time=10.8 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=12 ttl=34 time=10.9 ms
+64 bytes from edge-star-mini-shv-02-iad3.facebook.com (157.240.229.35): icmp_seq=13 ttl=34 time=10.9 ms
+^C
+--- facebook.com ping statistics ---
+13 packets transmitted, 13 received, 0% packet loss, time 12011ms
+rtt min/avg/max/mdev = 10.817/11.359/16.956/1.616 ms
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ [H[2J[ec2-user@ip-172-31-39-151 ~]$ [7mtelnet[27mtelnet
+[?2004lbash: telnet: command not found
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ sudi[Ko yum install telnet
+[?2004lUpdating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+Last metadata expiration check: 0:47:41 ago on Fri 10 Feb 2023 01:07:04 AM UTC.
+Dependencies resolved.
+================================================================================
+ Package    Arch       Version             Repository                      Size
+================================================================================
+Installing:
+ [1m[32mtelnet    (B[m x86_64     1:0.17-85.el9       rhel-9-appstream-rhui-rpms      66 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 66 k
+Installed size: 121 k
+Is this ok [y/N]: y
+Downloading Packages:
+                         [===                 ] ---  B/s |   0  B     --:-- ETAtelnet-0.17-85.el9.x  0% [                    ] ---  B/s |   0  B     --:-- ETAtelnet-0.17-85.el9.x86_64.rpm                   1.5 MB/s |  66 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           688 kB/s |  66 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : telnet-1:0.17-85.el9.x86_ [                          ] 1/1  Installing       : telnet-1:0.17-85.el9.x86_ [======                    ] 1/1  Installing       : telnet-1:0.17-85.el9.x86_ [=============             ] 1/1  Installing       : telnet-1:0.17-85.el9.x86_ [====================      ] 1/1  Installing       : telnet-1:0.17-85.el9.x86_ [======================    ] 1/1  Installing       : telnet-1:0.17-85.el9.x86_ [=======================   ] 1/1  Installing       : telnet-1:0.17-85.el9.x86_ [========================= ] 1/1  Installing       : telnet-1:0.17-85.el9.x86_64                            1/1 
+  Running scriptlet: telnet-1:0.17-85.el9.x86_64                            1/1 
+  Verifying        : telnet-1:0.17-85.el9.x86_64                            1/1 
+Installed products updated.
+
+Installed:
+  telnet-1:0.17-85.el9.x86_64                                                   
+
+Complete!
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ telnet
+[?2004ltelnet> ^C
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ [H[2J[ec2-user@ip-172-31-39-151 ~]$ telnet
+[?2004ltelnet> google.com 80 
+?Invalid command
+telnet> ^C
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ telnet [7mgoogle.com 80 [27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgoogle.com 80 
+[A
+[?2004lTrying 172.217.4.46...
+Connected to google.com.
+Escape character is '^]'.
+what is gep  rep
+^C^C^
+^ ^^  ^C^C^C^]
+^]
+q
+^Q^C
+^[
+^[  ^[C^C
+'^]'
+^[^[^[Connection closed by foreign host.
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ 
+Display all 1133 possibilities? (y or n)
+[ec2-user@ip-172-31-39-151 ~]$ etstat -tunlp~
+[?2004lbash: etstat: command not found
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ [7mnetstat -tunlp[27mnetstat -tunlp
+[?2004lbash: netstat: command not found
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ sudo yum install netstart
+[?2004lUpdating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+Last metadata expiration check: 0:56:39 ago on Fri 10 Feb 2023 01:07:04 AM UTC.
+No match for argument: [1mnetstart(B[m
+Error: Unable to find a match: netstart
+]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ vi rest
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;54r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[54;1H"rest" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [30;1H~                                                                               [31;1H~                                                                               [32;1H~                                                                               [33;1H~                                                                               [34;1H~                                                                               [35;1H~                                                                               [36;1H~                                                                               [37;1H~                                                                               [38;1H~                                                                               [39;1H~                                                                               [40;1H~                                                                               [41;1H~                                                                               [42;1H~                                                                               [43;1H~                                                                               [44;1H~                                                                               [45;1H~                                                                               [46;1H~                                                                               [47;1H~                                                                               [48;1H~                                                                               [49;1H~                                                                               [50;1H~                                                                               [51;1H~                                                                               [52;1H~                                                                               [53;1H~                                                                               [1;1H[?25h[?25l[m[54;1H[1m-- INSERT --[1;1H[?25h[?25l[mT[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lL[?25h[?25lo[?25h[?25lr[?25h[?25ld[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25lg[?25h[?25la[?25h[?25ln[?25h[?25ln[?25h[?25la[?25h[?25l [?25h[?25lg[?25h[?25li[?25h[?25lv[?25h[?25le[?25h[?25l [?25h[?25lm[?25h[?25le[?25h[?25l [?25h[?25lr[?25h[?25le[?25h[?25ls[?25h[?25lt[?25h[54;1H[K[1;30H[?25l[?25h[?25l[54;1H:[?25hwq[?25l[?2004l[>4;m"rest" [New] 1L, 31B written
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;ec2-user@ip-172-31-39-151:~[?2004h[ec2-user@ip-172-31-39-151 ~]$ netstat -[K[K[K[K[K[K[K[K[Kvi restsudo yum install netstart[1Pt
+[?2004lUpdating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+Last metadata expiration check: 1:00:08 ago on Fri 10 Feb 2023 01:07:04 AM UTC.
+No match for argument: [1mnetstat(B[m
+Error: Unable to find a match: 

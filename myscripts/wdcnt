@@ -1,0 +1,6 @@
+total 4
+drwxr-xr-x. 2 ec2-user ec2-user   48 Feb 24 00:26 .
+drwx------. 7 ec2-user ec2-user 4096 Feb 24 00:18 ..
+-rw-r--r--. 1 ec2-user ec2-user    0 Feb 24 00:26 goodness
+-rw-r--r--. 1 ec2-user ec2-user    0 Feb 24 00:26 grace
+-rw-r--r--. 1 ec2-user ec2-user    0 Feb 24 00:26 mercy
